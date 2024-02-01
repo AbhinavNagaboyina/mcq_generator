@@ -8,7 +8,7 @@ from src.mcq_generator.mcq_gen import final_chain
 import streamlit as st
 from langchain_community.callbacks import get_openai_callback
 
-with open('/Users/abhinavnagaboyina/Documents/Gen_AI_Practice/mcq_generator/response.json','r') as file:
+with open('response.json','r') as file:
     Response_json= json.load(file)
 
 st.title("MCQ Creator Application🤖")
